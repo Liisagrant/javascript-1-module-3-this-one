@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <script src="js/toasterMessage.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <style>
+        .toaster {
+            height: 35px;
+            width: 325px;
+            display: flex;
+            justify-content: flex-start;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid gray;
+            flex-direction: column;
+            margin: 10px;
+            text-transform: capitalize;
+        }
+
+        .success {
+            background-color: forestgreen;
+        }
+
+        .info {
+            background-color: #b2e7f5;
+        }
+
+        .warning {
+            background-color: #fae7c7;
+        }
+
+        .error {
+            background-color: #efb7b8;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="message-success"></div>
+    <div class="message-error"></div>
+    <div class="message-info"></div>
+    <div class="message-warning"></div>
+</div>
+</body>
+</html>
