@@ -1,0 +1,40 @@
+* {
+    font-family: 'Rowdies', cursive;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+ul.pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+ul.pokemon li {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 90px;
+    background-color: indianred;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.pokemon li span {
+    background-color: whitesmoke;
+    color: #23276a;
+    padding: 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
