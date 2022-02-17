@@ -32,3 +32,37 @@ fetch(URL)
     .catch((error) => {
         console.log(error);
     })
+/*getApiRequest = async() => {
+    const response = await fetch(url);
+    return await response.json();
+    console.log(response);
+} */
+//getApiRequest();
+
+/*
+
+const getGames = async() => {
+    const games = await getApiRequest(url);
+
+    gameContainer.innerHTML = "";
+
+    for (game of games.results) {
+      if (game === games.results[8]) {
+          break;
+      }
+
+      console.log(game);
+      gameContainer.innerHTML += `
+      <div>
+      <h2>Name: ${game.name}</h2>
+      <h3>Rating: ${game.rating}</h3>
+      <h4>Tags: ${game.tags.length}</h4>
+      </div>`
+
+    }
+    if (gameContainer.innerHTML === "") {
+        gameContainer.innerHTML = "Error:(";
+     }
+}
+getGames()*/
+

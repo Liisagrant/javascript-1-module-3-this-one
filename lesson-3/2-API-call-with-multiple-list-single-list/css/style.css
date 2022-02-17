@@ -38,3 +38,11 @@ ul.pokemon li span {
     border-radius: 3px;
     text-transform: uppercase;
 }
+
+.pokemon-details {
+    width: 250px;
+    height: 250px;
+    background-color: cadetblue;
+    text-align: center;
+    align-items: center;
+}
